@@ -1,7 +1,7 @@
-**Task 1**
+Task 1
 Port forwarding is an essential component in connecting applications and services to the Internet. Without port forwarding, applications and services such as web servers are only available to devices within the same direct network.
 
-![Output](Images/25.png)
+![Output](Images/25.jpg)
 
 Answers:
 
@@ -41,7 +41,7 @@ stateless
 **Task 3**
 
 Quick guide, as the instructions suggest, see the red balls ? yea they bad ... click the drop down select the IP, click port 80, and add the rule.
-![Output](Images/26.png)![Output](Images/27.png)
+![Output](Images/26.jpg)![Output](Images/27.jpg)
 
 Honestly nothing much in this particular practical. So here's the flag if you're lazy:
 
@@ -90,7 +90,7 @@ Layer2,Layer3
 **Task 6**
 I'm not even kidding, there's actually not much to do for this, you literally just click Send Packet and let it rip, anyways as usual here are the answers:
 
-![Output](Images/28.png)
+![Output](Images/28.jpg)
 
 Answers:
 

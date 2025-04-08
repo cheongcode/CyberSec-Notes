@@ -11,7 +11,7 @@ Domain Name System
 
 **Task 2**
 
-![Output](Images/29.png)
+![Output](Images/29.jpg)
 
 **TLD (Top-Level Domain)**
 
@@ -77,7 +77,7 @@ AAAA
 
 **Task 4**
 
-![Output](Images/30.png)
+![Output](Images/30.jpg)
 
 Answers:
 
@@ -98,7 +98,7 @@ authoritative
 
 What is the CNAME of shop.website.thm?
 
-![Output](Images/31.png)
+![Output](Images/31.jpg)
 
 Adjust the DNS Type to CNAME and put shop as the subdomain before sending the DNS Request
 
@@ -110,7 +110,7 @@ shops.myshopify.com
 
 What is the value of the TXT record of website.thm?
 
-![Output](Images/32.png)
+![Output](Images/32.jpg)
 
 It's pretty much the same pattern but I would say it would be more useful if you typed the commands out yourself.
 
@@ -120,11 +120,11 @@ Answers:
 THM{7012BBA60997F35A9516C2E16D2944FF}
 ```
 
-![Output](Images/33.png)
+![Output](Images/33.jpg)
 
 What is the numerical priority value for the MX record?
 
-![Output](Images/34.png)
+![Output](Images/34.jpg)
 
 Answers:
 
@@ -134,7 +134,7 @@ Answers:
 
 What is the IP address for the A record of www.website.thm?
 
-![Output](Images/35.png)
+![Output](Images/35.jpg)
 
 Answers:
 
