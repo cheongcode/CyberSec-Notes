@@ -11,14 +11,12 @@
             "id": "ee65e916c115cd36",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
-                "mode": "preview",
-                "source": false
+                "file": "TryHackMe/Pre_Security_Path/Images/1.png"
               },
-              "icon": "lucide-file",
-              "title": "DNS_in_detail"
+              "icon": "lucide-image",
+              "title": "1"
             }
           }
         ]
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
+                "file": "TryHackMe/Pre_Security_Path/Images/1.png",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DNS_in_detail"
+              "title": "Backlinks for 1"
             }
           },
           {
@@ -171,6 +169,20 @@
   },
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
+    "TryHackMe/Pre_Security_Path/Images/49.png",
+    "TryHackMe/Pre_Security_Path/Images/1.png",
+    "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
+    "TryHackMe/Pre_Security_Path/Images/9.png",
+    "TryHackMe/Pre_Security_Path/Images/8.png",
+    "TryHackMe/Pre_Security_Path/Images/7.png",
+    "TryHackMe/Pre_Security_Path/Images/Images.md",
+    "TryHackMe/Pre_Security_Path/Images/5.png",
+    "TryHackMe/Pre_Security_Path/Images/6.png",
+    "TryHackMe/Pre_Security_Path/Images/51.png",
+    "TryHackMe/Pre_Security_Path/Images/47.png",
+    "TryHackMe/Pre_Security_Path/Images/46.png",
+    "TryHackMe/Pre_Security_Path/Images/48.png",
+    "TryHackMe/Pre_Security_Path/Images",
     "HackTheBox/This is a test note.md",
     "TryHackMe/Pre_Security_Path/Intro_to_Offensive_Security.md",
     "TryHackMe/Pre_Security_Path/Intro_to_LAN.md",
@@ -178,7 +190,6 @@
     "TryHackMe/Pre_Security_Path/HTTP_in_Detail.md",
     "TryHackMe/Pre_Security_Path/How_Websites_Work.md",
     "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
-    "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
     "TryHackMe/Pre_Security_Path/What_is_Networking.md",
     "TryHackMe/Pre_Security_Path/README.md",
     "TryHackMe/Pre_Security_Path/Putting_it_all_together.md",
@@ -188,7 +199,6 @@
     "Welcome.md",
     "New Text Document.txt",
     "Untitled.md",
-    "Pasted image 20250408193142.png",
     "README.md",
     "TryHackMe/images",
     "TryHackMe",
@@ -197,7 +207,6 @@
     "OSCP-Prep",
     "HackTheBox/images",
     "HackTheBox",
-    "_Inbox",
     "CyberSec-Notes/README.md"
   ]
 }
