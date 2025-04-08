@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/Images/1.png"
+                "file": "TryHackMe/Pre_Security_Path/Images/3.png"
               },
               "icon": "lucide-image",
-              "title": "1"
+              "title": "3"
             }
           }
         ]
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/Images/1.png",
+                "file": "TryHackMe/Pre_Security_Path/Images/3.png",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1"
+              "title": "Backlinks for 3"
             }
           },
           {
@@ -170,18 +170,18 @@
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
     "TryHackMe/Pre_Security_Path/Images/2.png",
-    "TryHackMe/Pre_Security_Path/Images/35.png",
-    "TryHackMe/Pre_Security_Path/Images/37.png",
+    "TryHackMe/Pre_Security_Path/Images/1.jpg",
     "TryHackMe/Pre_Security_Path/Images/1.png",
-    "TryHackMe/Pre_Security_Path/Images/47.png",
-    "TryHackMe/Pre_Security_Path/Images/49.png",
+    "TryHackMe/Pre_Security_Path/Images/9.jpg",
+    "TryHackMe/Pre_Security_Path/Images/8.jpg",
+    "TryHackMe/Pre_Security_Path/Images/7.jpg",
+    "TryHackMe/Pre_Security_Path/Images/6.jpg",
+    "TryHackMe/Pre_Security_Path/Images/51.jpg",
+    "TryHackMe/Pre_Security_Path/Images/5.jpg",
+    "TryHackMe/Pre_Security_Path/Images/49.jpg",
+    "TryHackMe/Pre_Security_Path/Images/48.jpg",
     "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
-    "TryHackMe/Pre_Security_Path/Images/9.png",
-    "TryHackMe/Pre_Security_Path/Images/8.png",
-    "TryHackMe/Pre_Security_Path/Images/7.png",
     "TryHackMe/Pre_Security_Path/Images/Images.md",
-    "TryHackMe/Pre_Security_Path/Images/5.png",
-    "TryHackMe/Pre_Security_Path/Images/6.png",
     "TryHackMe/Pre_Security_Path/Images",
     "HackTheBox/This is a test note.md",
     "TryHackMe/Pre_Security_Path/Intro_to_Offensive_Security.md",
