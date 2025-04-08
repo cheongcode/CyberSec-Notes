@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/Images/47.png"
+                "file": "TryHackMe/Pre_Security_Path/Images/1.png"
               },
               "icon": "lucide-image",
-              "title": "47"
+              "title": "1"
             }
           }
         ]
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/Images/47.png",
+                "file": "TryHackMe/Pre_Security_Path/Images/1.png",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 47"
+              "title": "Backlinks for 1"
             }
           },
           {
@@ -169,6 +169,7 @@
   },
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
+    "TryHackMe/Pre_Security_Path/Images/47.png",
     "TryHackMe/Pre_Security_Path/Images/1.png",
     "TryHackMe/Pre_Security_Path/Images/49.png",
     "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
@@ -179,7 +180,6 @@
     "TryHackMe/Pre_Security_Path/Images/5.png",
     "TryHackMe/Pre_Security_Path/Images/6.png",
     "TryHackMe/Pre_Security_Path/Images/51.png",
-    "TryHackMe/Pre_Security_Path/Images/47.png",
     "TryHackMe/Pre_Security_Path/Images/46.png",
     "TryHackMe/Pre_Security_Path/Images/48.png",
     "TryHackMe/Pre_Security_Path/Images",
