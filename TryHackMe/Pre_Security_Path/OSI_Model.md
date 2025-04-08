@@ -205,7 +205,7 @@ Ethernet Cables
 
 **Task 9: OSI GAME**
 
-![Output](Images/19.png)
+![Output](Images/19.jpg)
 
 Answers:
 
