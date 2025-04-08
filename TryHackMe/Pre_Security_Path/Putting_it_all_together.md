@@ -90,7 +90,7 @@ Nay
 
 Basically a quiz for you to line everything up to get a flag.
 
-![[51.png]]
+![Output](TryHackMe/Pre_Security_Path/Images/51.jpg)
 
 ```
 THM{YOU_GOT_THE_ORDER}
