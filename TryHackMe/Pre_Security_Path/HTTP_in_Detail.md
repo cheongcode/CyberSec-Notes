@@ -173,7 +173,7 @@ Honestly everything here is pretty straight forward, so I won't go through.
 
 Make a GET request to /room
 
-![Output](Images/36.png)
+![Output](Images/36.jpg)
 
 Answers:
 
@@ -183,8 +183,8 @@ THM{YOU'RE_IN_THE_ROOM}
 
 Make a GET request to /room
 
-![Output](Images/37.png)
-![Output](Images/38.png)
+![Output](Images/37.jpg)
+![Output](Images/38.jpg)
 
 Answers:
 
@@ -194,7 +194,7 @@ THM{YOU_FOUND_THE_BLOG}
 
 Make a DELETE request to /user/1
 
-![Output](Images/39.png)
+![Output](Images/39.jpg)
 
 Answers:
 
@@ -210,12 +210,12 @@ Answers:
 THM{USER_HAS_UPDATED}
 ```
 
-![Output](Images/40.png)
-![Output](Images/41.png)
+![Output](Images/40.jpg)
+![Output](Images/41.jpg)
 
 POST the username of thm and a password of letmein to /login
-![Output](Images/43.png)
-![Output](Images/44.png)
+![Output](Images/43.jpg)
+![Output](Images/44.jpg)
 
 Answers:
 

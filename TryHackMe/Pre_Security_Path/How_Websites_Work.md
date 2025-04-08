@@ -28,7 +28,7 @@ The HTML structure (as shown in the screenshot) has the following components:
 Questions:
 
 One of the images on the cat website is broken - fix it, and the image will reveal the hidden text answer!
-![Output](Images/45.png)
+![Output](Images/45.jpg)
 basically missing a jpg, can just add .jpg to cat-2
 
 Answers:
@@ -39,7 +39,7 @@ HTMLHERO
 
 Add a dog image to the page by adding another img tag (<img>) on line 11. The dog image location is img/dog-1.png. What is the text in the dog image?
 
-![Output](Images/46.png)
+![Output](Images/46.jpg)
 
 I mean just copy and paste the img src, nothing rocket science.
 
@@ -63,7 +63,7 @@ Questions:
 
 Click the "View Site" button on this task. On the right-hand side, add JavaScript that changes the demo element's content to "Hack the Planet"
 
-![Output](Images/47.png)
+![Output](Images/47.jpg)
 
 Answers:
 
@@ -77,7 +77,7 @@ Questions:
 
 View the website on [this link](https://static-labs.tryhackme.cloud/sites/howwebsiteswork/html_data_exposure/). What is the password hidden in the source code?
 
-![Output](Images/48.png)
+![Output](Images/48.jpg)
 
 inspect element, click on the js file.
 
@@ -99,7 +99,7 @@ Questions:
 
 View the website on this task and inject HTML so that a malicious link to http://hacker.com is shown.
 
-![Output](Images/49.png)
+![Output](Images/49.jpg)
 
 don't need to be a html god to do this, just google how to link websites html and it should be the first site
 
