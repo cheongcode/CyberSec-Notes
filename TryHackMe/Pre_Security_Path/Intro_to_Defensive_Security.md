@@ -102,7 +102,7 @@ In this exercise, we will interact with a SIEM to monitor the different events
 Next, we want to learn more about the suspicious activity or event. The suspicious event might have been triggered by an event, such as a local user, a local computer, or a remote IP address. To send and receive postal mail, you need a physical address; similarly, you need an IP address to send and receive data over the Internet. An IP address is a logical address that allows you to communicate over the Internet. We inspect the cause of the trigger to confirm whether the event is indeed malicious. If it is malicious, we need to take due action, such as reporting to someone else in the SOC and blocking the IP address.
 
 Just click on the View Site Button and we see an SIEM panel. From here as we mouse over and realize there is an unauthorized connection in red.
-![Output](TryHackMe/Pre_Security_Path/Images/5.png)
+![Output](TryHackMe/Pre_Security_Path/Images/5.jpg)
 
 Upon clicking on it we can see an IP-scanner, we will then drop the IP address and submit
 ![Output](TryHackMe/Pre_Security_Path/Images/6.png)
