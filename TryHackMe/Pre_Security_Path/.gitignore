@@ -1,0 +1,17 @@
+# Ignore .makemd directory
+.makemd/
+
+# Ignore .space directory
+.space/
+
+# Ignore .trash directory
+.trash/
+
+# Ignore useless directories
+.md
+.Pre_Security_Path.md
+
+# Optional: Ignore any system files or temporary files
+.DS_Store
+Thumbs.db
+.mdb
