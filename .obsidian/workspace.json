@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
+                "file": "TryHackMe/Pre_Security_Path/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Extending_Your_Network"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
+                "file": "TryHackMe/Pre_Security_Path/README.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Extending_Your_Network"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -171,18 +171,18 @@
   },
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
-    "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
-    "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
-    "TryHackMe/Pre_Security_Path/How_Websites_Work.md",
-    "TryHackMe/Pre_Security_Path/HTTP_in_Detail.md",
-    "TryHackMe/Pre_Security_Path/Intro_to_Defensive_Security.md",
-    "TryHackMe/Pre_Security_Path/Intro_to_LAN.md",
-    "TryHackMe/Pre_Security_Path/Intro_to_Offensive_Security.md",
-    "TryHackMe/Pre_Security_Path/OSI_Model.md",
     "TryHackMe/Pre_Security_Path/Packets_and_Frames.md",
-    "TryHackMe/Pre_Security_Path/Putting_it_all_together.md",
-    "TryHackMe/Pre_Security_Path/What_is_Networking.md",
     "TryHackMe/Pre_Security_Path/README.md",
+    "TryHackMe/Pre_Security_Path/Intro_to_Offensive_Security.md",
+    "TryHackMe/Pre_Security_Path/Putting_it_all_together.md",
+    "TryHackMe/Pre_Security_Path/OSI_Model.md",
+    "TryHackMe/Pre_Security_Path/Intro_to_LAN.md",
+    "TryHackMe/Pre_Security_Path/Intro_to_Defensive_Security.md",
+    "TryHackMe/Pre_Security_Path/HTTP_in_Detail.md",
+    "TryHackMe/Pre_Security_Path/How_Websites_Work.md",
+    "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
+    "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
+    "TryHackMe/Pre_Security_Path/What_is_Networking.md",
     "TryHackMe/Pre_Security_Path/Images/Images.md",
     "TryHackMe/Pre_Security_Path/Images/51.jpg",
     "TryHackMe/Pre_Security_Path/Images/51.png",
