@@ -76,7 +76,7 @@ Answer:
 ping 10.10.10.10
 ```
 What flag do you get when you ping 8.8.8.8?
-![Output](TryHackMe/Pre_Security_Path/Images/12.png)
+![Output](TryHackMe/Pre_Security_Path/Images/12.jpg)
 I mean just put 8.8.8.8 and click Send Ping Request
 
 Answer:
