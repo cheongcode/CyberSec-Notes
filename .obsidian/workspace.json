@@ -11,12 +11,14 @@
             "id": "ee65e916c115cd36",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/Images/40.png"
+                "file": "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "40"
+              "icon": "lucide-file",
+              "title": "DNS_in_detail"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/Images/40.png",
+                "file": "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 40"
+              "title": "Backlinks for DNS_in_detail"
             }
           },
           {
@@ -169,19 +171,18 @@
   },
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
-    "TryHackMe/Pre_Security_Path/Images/39.png",
-    "TryHackMe/Pre_Security_Path/Images/38.png",
-    "TryHackMe/Pre_Security_Path/Images/37.png",
-    "TryHackMe/Pre_Security_Path/Images/36.png",
-    "TryHackMe/Pre_Security_Path/Images/35.png",
-    "TryHackMe/Pre_Security_Path/Images/34.png",
-    "TryHackMe/Pre_Security_Path/Images/33.png",
-    "TryHackMe/Pre_Security_Path/Images/32.png",
-    "TryHackMe/Pre_Security_Path/Images/31.png",
-    "TryHackMe/Pre_Security_Path/Images/30.png",
-    "TryHackMe/Pre_Security_Path/Images/29.png",
-    "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
     "TryHackMe/Pre_Security_Path/Images/Images.md",
+    "TryHackMe/Pre_Security_Path/Images/51.jpg",
+    "TryHackMe/Pre_Security_Path/Images/51.png",
+    "TryHackMe/Pre_Security_Path/Images/49.png",
+    "TryHackMe/Pre_Security_Path/Images/48.png",
+    "TryHackMe/Pre_Security_Path/Images/47.png",
+    "TryHackMe/Pre_Security_Path/Images/46.png",
+    "TryHackMe/Pre_Security_Path/Images/45.png",
+    "TryHackMe/Pre_Security_Path/Images/44.png",
+    "TryHackMe/Pre_Security_Path/Images/43.png",
+    "TryHackMe/Pre_Security_Path/Images/42.png",
+    "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
     "TryHackMe/Pre_Security_Path/Images",
     "HackTheBox/This is a test note.md",
     "TryHackMe/Pre_Security_Path/Intro_to_Offensive_Security.md",
