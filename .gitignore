@@ -1,0 +1,12 @@
+# System junk
+.DS_Store
+Thumbs.db
+
+# Obsidian workspace cache (optional)
+.obsidian/workspace
+
+# Windows metadata
+desktop.ini
+
+# Temp files
+*.log
