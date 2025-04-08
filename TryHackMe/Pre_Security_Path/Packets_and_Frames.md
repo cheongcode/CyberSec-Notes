@@ -66,7 +66,7 @@ And here are the important flags, gotta expand your brain abit more for this one
 
 Here's how it looks like.
 
-![Output](Images/20.png)
+![Output](Images/20.jpg)
 
 Here's how **closing a connection** it looks like.
 
