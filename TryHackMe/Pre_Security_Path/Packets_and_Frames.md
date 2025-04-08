@@ -70,7 +70,7 @@ Here's how it looks like.
 
 Here's how **closing a connection** it looks like.
 
-![Output](Images/21.png)
+![Output](Images/21.jpg)
 
 Answers:
 
@@ -87,7 +87,7 @@ SYN,SYN/ACK,ACK
 **Task 3**
 
 Just read through the notes before and figure it out, its not rocket science, just need to click the correct flags, but then again if you're lazy here's the flag:
-![Output](Images/22.png)
+![Output](Images/22.jpg)
 
 ```
 THM{TCP_CHATTER}
@@ -116,7 +116,7 @@ Here's the headers:
 
 Here's quick diagram:
 
-![Output](Images/23.png)
+![Output](Images/23.jpg)
 
 Answers:
 
@@ -152,7 +152,7 @@ Networking devices also use ports to enforce strict rules when communicating wit
 | **R**emote **D**esktop **P**rotocol (**RDP**)                      | 3389            | This protocol is a secure means of logging in to a system using a visual desktop interface (as opposed to the text-based limitations of the SSH protocol). |
 
 
-![Output](Images/24.png)
+![Output](Images/24.jpg)
 
 Answers:
 
