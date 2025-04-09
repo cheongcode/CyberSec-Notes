@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox/Boxes/Adminstrator.md",
+                "file": "HackTheBox/Boxes/UnderPass .md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adminstrator"
+              "title": "UnderPass"
             }
           }
         ]
@@ -171,11 +171,11 @@
   },
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
+    "HackTheBox/Boxes/LinkVortex.md",
+    "HackTheBox/Boxes/Adminstrator.md",
     "HackTheBox/Boxes/UnderPass .md",
     "HackTheBox/Boxes/Attachments/2.png",
     "HackTheBox/Boxes/Attachments/1.png",
-    "HackTheBox/Boxes/LinkVortex.md",
-    "HackTheBox/Boxes/Adminstrator.md",
     "HackTheBox/Boxes/Attachments/Attachments.md",
     "HackTheBox/Boxes/Boxes.md",
     "HackTheBox/TESTING.md",
