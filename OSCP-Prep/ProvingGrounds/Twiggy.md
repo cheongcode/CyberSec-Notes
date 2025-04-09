@@ -56,3 +56,10 @@ Nmap done: 1 IP address (1 host up) scanned in 108.93 seconds
 Of course we open the port 80 first
 ![[Twiggy-1744177123093.jpeg]]
 
+Oh look there's an admin interface button
+
+![[Twiggy-1744178077284.jpeg]]
+
+After trying out the admin... nah it aint that easy. So we take a look at port 8000, time to do some research on ZeroMQ ZMTP 2.0 as well 
+
+![[Twiggy-1744178200043.jpeg]]
