@@ -1,5 +1,6 @@
 import os
 import re
+import shutil
 
 vault_path = r"C:\Users\brand\Obsidian\CyberSec-Notes"
 image_extensions = ('.png', '.jpg', '.jpeg')
@@ -25,30 +26,34 @@ for root, dirs, files in os.walk(vault_path):
         images_dir = os.path.join(root, "images")
 
         if not os.path.isdir(images_dir):
-            continue
-
-        available_images = set(os.listdir(images_dir))
+            os.makedirs(images_dir)
 
         for match in matches:
-            current_filename = os.path.basename(match)
-            current_ext = os.path.splitext(current_filename)[1].lower()
+            filename = os.path.basename(match)
+            old_link = f"![[{match}]]"
+            new_link = f"![[images/{filename}]]"
 
-            if current_filename in available_images:
-                new_link = f"![[images/{current_filename}]]"
-                old_link = f"![[{match}]]"
-                if old_link != new_link:
-                    updated_content = updated_content.replace(old_link, new_link)
-                    changed = True
+            src_path = os.path.join(root, filename)
+            dst_path = os.path.join(images_dir, filename)
+
+            if os.path.isfile(src_path) and not os.path.isfile(dst_path):
+                shutil.move(src_path, dst_path)
+                print(f"📦 Moved: {filename} → {images_dir}")
+                changed = True
+
+            if old_link != new_link:
+                updated_content = updated_content.replace(old_link, new_link)
+                changed = True
 
         if changed:
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(updated_content)
             updated_files.append(file_path)
 
-# Output result
+# Result
 if updated_files:
-    print("✅ Fixed image link paths in:")
+    print("✅ Updated the following notes:")
     for f in updated_files:
         print(" -", f)
 else:
-    print("ℹ️ All image links already point to images/ subfolders correctly.")
+    print("ℹ️ No changes were needed.")

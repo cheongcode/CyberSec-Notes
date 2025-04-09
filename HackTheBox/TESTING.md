@@ -1,2 +1,2 @@
 Sample Imagee
-![[TESTING-1744173183961.jpeg]]
+![[images/TESTING-1744173183961.jpeg]]
