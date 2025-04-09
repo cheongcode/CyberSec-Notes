@@ -1,10 +1,16 @@
 import os
 import re
+import shutil
 from PIL import Image
 
 vault_path = r"C:\Users\brand\Obsidian\CyberSec-Notes"
-image_extensions = ('.png', '.jpg', '.jpeg')
 image_link_pattern = re.compile(r'!\[\[(.+?\.(?:png|jpg|jpeg))\]\]', re.IGNORECASE)
+
+def convert_to_jpg(src_path, dst_path):
+    img = Image.open(src_path).convert("RGB")
+    img.save(dst_path, "JPEG", quality=85)
+    img.close()
+    os.remove(src_path)
 
 updated_files = []
 
@@ -26,54 +32,48 @@ for root, dirs, files in os.walk(vault_path):
         images_dir = os.path.join(root, "images")
 
         if not os.path.isdir(images_dir):
-            continue
+            os.makedirs(images_dir)
 
         for match in matches:
-            current_filename = os.path.basename(match)
-            old_ext = os.path.splitext(current_filename)[1].lower()
-            base_name = os.path.splitext(current_filename)[0]
+            original_link = f"![[{match}]]"
+            src_filename = os.path.basename(match)
+            src_path = os.path.join(root, src_filename)
 
-            original_image_path = os.path.join(images_dir, current_filename)
+            # If the file is not in the current folder, maybe it's already inside images/
+            if not os.path.isfile(src_path):
+                src_path = os.path.join(images_dir, src_filename)
+                if not os.path.isfile(src_path):
+                    continue  # File doesn't exist at all, skip
 
-            if not os.path.isfile(original_image_path):
-                continue
+            base_name, ext = os.path.splitext(src_filename)
+            ext = ext.lower()
 
-            # If it's a PNG, convert it
-            if old_ext == ".png":
-                jpg_filename = base_name + ".jpg"
-                jpg_path = os.path.join(images_dir, jpg_filename)
+            target_name = base_name + ".jpg"
+            target_path = os.path.join(images_dir, target_name)
+            new_link = f"![[images/{target_name}]]"
 
-                try:
-                    img = Image.open(original_image_path).convert("RGB")
-                    img.save(jpg_path, "JPEG", quality=85)
-                    img.close()
-                    os.remove(original_image_path)
-                    print(f"✔ Converted: {current_filename} → {jpg_filename}")
-                except Exception as e:
-                    print(f"✘ Failed to convert {current_filename}: {e}")
-                    continue
-
-                old_link = f"![[{match}]]"
-                new_link = f"![[images/{jpg_filename}]]"
-                updated_content = updated_content.replace(old_link, new_link)
+            if ext == ".png":
+                convert_to_jpg(src_path, target_path)
+                changed = True
+            elif ext == ".jpeg":
+                shutil.move(src_path, target_path)
+                changed = True
+            elif ext == ".jpg" and os.path.dirname(src_path) != images_dir:
+                shutil.move(src_path, target_path)
                 changed = True
 
-            # If it's already jpg/jpeg but not inside images/
-            elif not match.startswith("images/"):
-                new_link = f"![[images/{current_filename}]]"
-                old_link = f"![[{match}]]"
-                updated_content = updated_content.replace(old_link, new_link)
-                changed = True
+            if original_link != new_link:
+                updated_content = updated_content.replace(original_link, new_link)
 
         if changed:
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(updated_content)
             updated_files.append(file_path)
 
-# Output summary
+# Summary output
 if updated_files:
-    print("✅ Processed and updated:")
+    print("✅ Updated the following notes:")
     for f in updated_files:
         print(" -", f)
 else:
-    print("ℹ️ No changes were necessary.")
+    print("ℹ️ All notes and image paths are already correct.")
