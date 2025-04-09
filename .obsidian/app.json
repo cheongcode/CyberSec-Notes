@@ -1,5 +1,5 @@
 {
   "promptDelete": false,
   "newFileLocation": "root",
-  "attachmentFolderPath": "/"
+  "attachmentFolderPath": "./images"
 }
