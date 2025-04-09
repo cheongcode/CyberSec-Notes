@@ -54,5 +54,5 @@ Nmap done: 1 IP address (1 host up) scanned in 108.93 seconds
 ```
 
 Of course we open the port 80 first
+![[Twiggy-1744177123093.jpeg]]
 
-![[image.png]]
