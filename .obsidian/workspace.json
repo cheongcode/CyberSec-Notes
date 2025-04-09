@@ -11,12 +11,14 @@
             "id": "ee65e916c115cd36",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Untitled-20250409-115815.png"
+                "file": "OSCP-Prep/This is my oscp prep.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Untitled-20250409-115815"
+              "icon": "lucide-file",
+              "title": "This is my oscp prep"
             }
           }
         ]
@@ -169,8 +171,11 @@
   },
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
-    "Welcome.md",
+    "OSCP-Prep/images/This is my oscp prep-20250409-120450.png",
+    "OSCP-Prep/This is my oscp prep.md",
     "README.md",
+    "Welcome.md",
+    "Untitled-20250409-115815.png",
     "TryHackMe/Untitled.md",
     "images/image",
     "images",
@@ -178,7 +183,6 @@
     "TryHackMe/images/Untitled-20250409-120144.png",
     "TryHackMe/images/Untitled-20250409-120108.png",
     "TryHackMe/Pre_Security_Path/How_Websites_Work.md",
-    "Untitled-20250409-115815.png",
     "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
     "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
     "TryHackMe/Pre_Security_Path/README.md",
@@ -197,7 +201,6 @@
     "TryHackMe/Pre_Security_Path/Images/49.png",
     "TryHackMe/Pre_Security_Path/Images/48.png",
     "TryHackMe/Pre_Security_Path/Images/47.png",
-    "TryHackMe/Pre_Security_Path/Images/46.png",
     "TryHackMe/Pre_Security_Path/Images",
     "TryHackMe/Pre_Security_Path",
     "New Text Document.txt",
