@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
+                "file": "OSCP-Prep/TEST NOTE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNS_in_detail"
+              "title": "TEST NOTE"
             }
           }
         ]
@@ -171,6 +171,8 @@
   },
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
+    "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
+    "OSCP-Prep/TEST NOTE.md",
     "python fix_image_links.py~",
     "OSCP-Prep/This is my oscp prep.md",
     "OSCP-Prep/images/This is my oscp prep-20250409-121709.png",
@@ -189,7 +191,6 @@
     "TryHackMe/images/Untitled-20250409-120108.png",
     "TryHackMe/Pre_Security_Path/How_Websites_Work.md",
     "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
-    "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
     "TryHackMe/Pre_Security_Path/README.md",
     "HackTheBox/This is a test note.md",
     "TryHackMe/Pre_Security_Path/Packets_and_Frames.md",
@@ -210,7 +211,6 @@
     "Untitled.md",
     "TryHackMe/images",
     "TryHackMe",
-    "Templates",
     "CyberSec-Notes/README.md"
   ]
 }
