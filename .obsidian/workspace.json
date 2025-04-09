@@ -171,6 +171,7 @@
   },
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
+    "python fix_image_links.py",
     "This is my oscp prep-20250409-121530.py",
     "This is my oscp prep-20250409-121456.txt",
     "OSCP-Prep/images/This is my oscp prep-20250409-120450.png",
@@ -210,7 +211,6 @@
     "TryHackMe",
     "Templates",
     "OSCP-Prep/images",
-    "OSCP-Prep",
     "CyberSec-Notes/README.md"
   ]
 }
