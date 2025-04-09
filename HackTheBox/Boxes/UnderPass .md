@@ -209,9 +209,9 @@ by Ben "epi" Risher 🤓                 ver: 2.11.0
 [####################] - 58s    30000/30000   516/s   http://10.10.11.48/daloradius/app/common/library/dompdf/     
 ```
 
-![[Pasted image 20250219142818.png]]
-![[Pasted image 20250219142743.png]]
-![[Pasted image 20250219143048.png]]
+![[images/Pasted image 20250219142818.png]]
+![[images/Pasted image 20250219142743.png]]
+![[images/Pasted image 20250219143048.png]]
 
 mosh --server="sudo /usr/bin/mosh-server" localhost
 

