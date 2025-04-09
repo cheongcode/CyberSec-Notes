@@ -11,14 +11,10 @@
             "id": "ee65e916c115cd36",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSCP-Prep/This is my oscp prep.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "This is my oscp prep"
+              "title": "New tab"
             }
           }
         ]
@@ -169,7 +165,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ee65e916c115cd36",
+  "active": "5790623d2c5747ab",
   "lastOpenFiles": [
     "OSCP-Prep/images/This is my oscp prep-20250409-121709.png",
     "OSCP-Prep/This is my oscp prep.md",
