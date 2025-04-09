@@ -30,18 +30,20 @@ for root, dirs, files in os.walk(vault_path):
 
         for match in matches:
             filename = os.path.basename(match)
-            old_link = f"![[{match}]]"
-            new_link = f"![[images/{filename}]]"
-
             src_path = os.path.join(root, filename)
             dst_path = os.path.join(images_dir, filename)
 
+            # Move file if not already in images folder
             if os.path.isfile(src_path) and not os.path.isfile(dst_path):
                 shutil.move(src_path, dst_path)
                 print(f"📦 Moved: {filename} → {images_dir}")
                 changed = True
 
-            if old_link != new_link:
+            # Replace ![[...]] with ![screenshot](images/...)
+            old_link = f"![[{match}]]"
+            new_link = f"![screenshot](images/{filename})"
+
+            if old_link in updated_content:
                 updated_content = updated_content.replace(old_link, new_link)
                 changed = True
 
@@ -50,7 +52,7 @@ for root, dirs, files in os.walk(vault_path):
                 f.write(updated_content)
             updated_files.append(file_path)
 
-# Result
+# Summary
 if updated_files:
     print("✅ Updated the following notes:")
     for f in updated_files:

