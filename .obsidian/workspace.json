@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "TryHackMe/images/Untitled-20250409-120144.png"
+                "file": "Untitled-20250409-115815.png"
               },
               "icon": "lucide-image",
-              "title": "Untitled-20250409-120144"
+              "title": "Untitled-20250409-115815"
             }
           }
         ]
@@ -169,9 +169,14 @@
   },
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
+    "Welcome.md",
+    "README.md",
     "TryHackMe/Untitled.md",
-    "TryHackMe/images/Untitled-20250409-120108.png",
+    "images/image",
+    "images",
+    "images/image/Untitled-1744171383883.jpeg",
     "TryHackMe/images/Untitled-20250409-120144.png",
+    "TryHackMe/images/Untitled-20250409-120108.png",
     "TryHackMe/Pre_Security_Path/How_Websites_Work.md",
     "Untitled-20250409-115815.png",
     "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
@@ -193,20 +198,15 @@
     "TryHackMe/Pre_Security_Path/Images/48.png",
     "TryHackMe/Pre_Security_Path/Images/47.png",
     "TryHackMe/Pre_Security_Path/Images/46.png",
-    "TryHackMe/Pre_Security_Path/Images/45.png",
     "TryHackMe/Pre_Security_Path/Images",
     "TryHackMe/Pre_Security_Path",
-    "Welcome.md",
     "New Text Document.txt",
     "Untitled.md",
-    "README.md",
     "TryHackMe/images",
     "TryHackMe",
     "Templates",
     "OSCP-Prep/images",
     "OSCP-Prep",
-    "HackTheBox/images",
-    "HackTheBox",
     "CyberSec-Notes/README.md"
   ]
 }
