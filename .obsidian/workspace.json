@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TryHackMe/Other_Rooms/Brains.md",
+                "file": "OSCP-Prep/ProvingGrounds/Twiggy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brains"
+              "title": "Twiggy"
             }
           }
         ]
@@ -169,10 +169,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5790623d2c5747ab",
+  "active": "ee65e916c115cd36",
   "lastOpenFiles": [
-    "TryHackMe/Other_Rooms/Images/Images.md",
     "TryHackMe/Other_Rooms/Brains.md",
+    "OSCP-Prep/ProvingGrounds/Twiggy.md",
+    "OSCP-Prep/Untitled.md",
+    "OSCP-Prep/ProvingGrounds",
+    "TryHackMe/Other_Rooms/Images/Images.md",
     "TryHackMe/Other_Rooms/Images/1.png",
     "TryHackMe/Other_Rooms/Other_Rooms.md",
     "HackTheBox/Web_Requests/GET.md",
@@ -206,7 +209,6 @@
     "HackTheBox/Boxes/Attachments",
     "HackTheBox/Boxes",
     "image",
-    "images/image",
     "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
     "OSCP-Prep/TEST NOTE.md",
     "OSCP-Prep/This is my oscp prep.md",
@@ -214,7 +216,6 @@
     "Welcome.md",
     "TryHackMe/Untitled.md",
     "TryHackMe/Pre_Security_Path/How_Websites_Work.md",
-    "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
-    "TryHackMe/Pre_Security_Path/README.md"
+    "TryHackMe/Pre_Security_Path/Extending_Your_Network.md"
   ]
 }
