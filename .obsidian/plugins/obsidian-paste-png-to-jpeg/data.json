@@ -2,7 +2,7 @@
   "imageNamePattern": "{{fileName}}",
   "dupNumberAtStart": false,
   "dupNumberDelimiter": "-",
-  "autoRename": true,
+  "autoRename": false,
   "autoMove": false,
   "pngToJpeg": true,
   "quality": "0.6",

@@ -1,0 +1,10 @@
+{
+  "image-converter:process-all-vault-images": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ]
+}

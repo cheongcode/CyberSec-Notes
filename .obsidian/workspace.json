@@ -169,10 +169,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ee65e916c115cd36",
+  "active": "5790623d2c5747ab",
   "lastOpenFiles": [
-    "TryHackMe/Other_Rooms/Brains.md",
+    "OSCP-Prep/ProvingGrounds/images/image.png",
     "OSCP-Prep/ProvingGrounds/Twiggy.md",
+    "OSCP-Prep/ProvingGrounds/images/Pasted image 20250409133022.png",
+    "OSCP-Prep/ProvingGrounds/images/Pasted image 20250409133147.png",
+    "OSCP-Prep/ProvingGrounds/images/Pasted image 20250409132922.png",
+    "OSCP-Prep/ProvingGrounds/images/Pasted image 20250409133001.png",
+    "OSCP-Prep/ProvingGrounds/images",
+    "TryHackMe/Other_Rooms/Brains.md",
     "OSCP-Prep/Untitled.md",
     "OSCP-Prep/ProvingGrounds",
     "TryHackMe/Other_Rooms/Images/Images.md",
@@ -183,8 +189,6 @@
     "TryHackMe/Other_Rooms/Images/7.png",
     "TryHackMe/Other_Rooms/Images/5.png",
     "TryHackMe/Other_Rooms/Images/2.png",
-    "TryHackMe/Other_Rooms/Images/3.png",
-    "TryHackMe/Other_Rooms/Images/4.png",
     "TryHackMe/Other_Rooms/Images",
     "TryHackMe/Other_Rooms",
     "HackTheBox/Web_Requests/HTTP Headers.md",
@@ -192,10 +196,7 @@
     "HackTheBox/Web_Requests/HyperText Transfer Protocol (HTTP).md",
     "HackTheBox/Web_Requests/Web_Requests.md",
     "HackTheBox/Boxes/UnderPass .md",
-    "HackTheBox/Web_Requests/Images/9.png",
-    "HackTheBox/Web_Requests/Images/8.png",
     "HackTheBox/Web_Requests/Images/Images.md",
-    "HackTheBox/Web_Requests/Images/4.png",
     "HackTheBox/Web_Requests/Cheatsheets/curl_commands.pdf",
     "HackTheBox/Web_Requests/Cheatsheets/Cheatsheets.md",
     "HackTheBox/Web_Requests/Images",
@@ -208,14 +209,12 @@
     "HackTheBox/TESTING.md",
     "HackTheBox/Boxes/Attachments",
     "HackTheBox/Boxes",
-    "image",
     "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
     "OSCP-Prep/TEST NOTE.md",
     "OSCP-Prep/This is my oscp prep.md",
     "README.md",
     "Welcome.md",
     "TryHackMe/Untitled.md",
-    "TryHackMe/Pre_Security_Path/How_Websites_Work.md",
-    "TryHackMe/Pre_Security_Path/Extending_Your_Network.md"
+    "TryHackMe/Pre_Security_Path/How_Websites_Work.md"
   ]
 }
