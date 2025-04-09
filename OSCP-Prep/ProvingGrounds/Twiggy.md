@@ -63,3 +63,7 @@ Oh look there's an admin interface button
 After trying out the admin... nah it aint that easy. So we take a look at port 8000, time to do some research on ZeroMQ ZMTP 2.0 as well 
 
 ![[Twiggy-1744178200043.jpeg]]
+
+Apparently we have something good on [exploitDB](https://www.exploit-db.com/exploits/48421) , let's just run Saltstack 3000.1 - Remote Code Execution like some script kiddie, and my guy actually uploaded a [poc](https://github.com/jasperla/CVE-2020-11651-poc) for it... good stuff
+
+
