@@ -11,14 +11,12 @@
             "id": "ee65e916c115cd36",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "HackTheBox/TESTING.md",
-                "mode": "source",
-                "source": false
+                "file": "image/TESTING-1744173381012.jpeg"
               },
-              "icon": "lucide-file",
-              "title": "TESTING"
+              "icon": "lucide-image",
+              "title": "TESTING-1744173381012"
             }
           }
         ]
@@ -171,11 +169,13 @@
   },
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
+    "HackTheBox/TESTING.md",
+    "image",
+    "image/TESTING-1744173381012.jpeg",
+    "images/image/TESTING-1744173330694.jpeg",
     "images/image",
     "images",
-    "images/image/TESTING-1744173330694.jpeg",
     "images/image/TESTING-1744173291512.jpeg",
-    "HackTheBox/TESTING.md",
     "images/image/Untitled-1744171383883.jpeg",
     "images/image/TESTING-1744173183961.jpeg",
     "images/image/TEST NOTE-1744172865606.jpeg",
@@ -193,7 +193,6 @@
     "Untitled-20250409-115815.png",
     "TryHackMe/Untitled.md",
     "TryHackMe/images/Untitled-20250409-120144.png",
-    "TryHackMe/images/Untitled-20250409-120108.png",
     "TryHackMe/Pre_Security_Path/How_Websites_Work.md",
     "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
     "TryHackMe/Pre_Security_Path/README.md",
@@ -211,7 +210,6 @@
     "TryHackMe/Pre_Security_Path",
     "Untitled.md",
     "TryHackMe/images",
-    "TryHackMe",
     "CyberSec-Notes/README.md"
   ]
 }
