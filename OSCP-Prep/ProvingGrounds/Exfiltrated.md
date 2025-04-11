@@ -8,8 +8,7 @@ tags:
   - exploitation
 os: Linux
 difficulty: Easy
-date:
-  "{ date:YYYY-MM-DD }": 
+date: 2025-04-11
 status: owned
 ---
 # {{title}}
