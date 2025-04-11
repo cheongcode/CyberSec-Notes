@@ -71,3 +71,9 @@ After much trial and error and hardwork (I'm kidding it wasn't hard at all), we 
 ![[Exfiltrated-1744341434736.jpeg]]
 
 Like all script kiddies do I'm just gonna use my trusty [exploitDB](https://www.exploit-db.com/exploits/49876) and copy and paste the python code. 
+
+🔹 Create & Activate Virtual Environment
+```
+python3 -m venv afu-venv
+source afu-venv/bin/activate
+```
