@@ -7,7 +7,7 @@ tags:
   - enumeration
   - exploitation
 os: Linux
-difficulty: Warm up
+difficulty: Easy
 date: 2025-04-09
 status: owned
 ---
