@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Untitled.md",
+                "file": "Templates/TEMPLATE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "TEMPLATE"
             }
           }
         ]
@@ -172,7 +172,7 @@
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
     "OSCP-Prep/ProvingGrounds/Twiggy.md",
-    "Templates/Untitled.md",
+    "Templates/TEMPLATE.md",
     "OSCP-Prep/ProvingGrounds/Untitled.md",
     "HackTheBox/Boxes/UnderPass .md",
     "OSCP-Prep/ProvingGrounds/images/Twiggy-1744181043545.jpeg",
