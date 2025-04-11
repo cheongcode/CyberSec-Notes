@@ -86,3 +86,5 @@ pip install requests bs4
 So we run the exploit:
 
 ![[Exfiltrated-1744342000765.jpeg]]
+
+and we just happen to get in: cool beans
