@@ -17,7 +17,7 @@ status: owned
 | Field              | Value                |
 | ------------------ | -------------------- |
 | **Name**           | Exfiltrated          |
-| **IP**             | `192.168.xxx.xxx`    |
+| **IP**             | `192.168.198.163`    |
 | **OS**             | Linux                |
 | **Difficulty**     | Easy                 |
 | **Date Completed** | 11 Apr 2025          |
