@@ -26,3 +26,11 @@ status: owned
 
 ---
 
+### 2. Enumeration
+
+Quick Nmap Scan just to see what's going on as usual:
+
+```
+nmap -sCV -p- -T4 192.168.198.163
+```
+
