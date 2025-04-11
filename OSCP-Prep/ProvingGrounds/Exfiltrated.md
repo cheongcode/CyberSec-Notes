@@ -77,3 +77,4 @@ Like all script kiddies do I'm just gonna use my trusty [exploitDB](https://www.
 python3 -m venv afu-venv
 source afu-venv/bin/activate
 ```
+
