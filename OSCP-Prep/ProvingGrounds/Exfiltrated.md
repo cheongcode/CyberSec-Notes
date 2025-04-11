@@ -66,4 +66,5 @@ From here we can see port 80 and port 22 is open, and just searching for the ip 
 ![[Exfiltrated-1744341273064.jpeg]]
 
 
-After much trial and error and hardwork (I'm kidding it wasn't hard at all), we find ourself some weird login page, so whats the next step to do ?
+After much trial and error and hardwork (I'm kidding it wasn't hard at all), we find ourself some weird login page, so whats the next step to do ? try out some useless username and password like admin:admin, but nah, no way this is gonna be this easy.
+
