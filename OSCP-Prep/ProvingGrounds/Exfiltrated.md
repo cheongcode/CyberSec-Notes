@@ -100,3 +100,4 @@ ngl, this feels abit underwhelming:
 
 ![[Exfiltrated-1744342402815.jpeg]]
 
+but alls good, we have a listener on 4444 on the other end so we gonna 
