@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/TEMPLATE.md",
+                "file": "OSCP-Prep/ProvingGrounds/Twiggy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TEMPLATE"
+              "title": "Twiggy"
             }
           }
         ]
@@ -171,9 +171,10 @@
   },
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
+    "OSCP-Prep/ProvingGrounds/Exfiltrated.md",
     "OSCP-Prep/ProvingGrounds/Twiggy.md",
-    "Templates/TEMPLATE.md",
     "OSCP-Prep/ProvingGrounds/Untitled.md",
+    "Templates/TEMPLATE.md",
     "HackTheBox/Boxes/UnderPass .md",
     "OSCP-Prep/ProvingGrounds/images/Twiggy-1744181043545.jpeg",
     "OSCP-Prep/ProvingGrounds/images/Twiggy-1744181018801.jpeg",
@@ -215,7 +216,6 @@
     "OSCP-Prep/TEST NOTE.md",
     "OSCP-Prep/This is my oscp prep.md",
     "README.md",
-    "Welcome.md",
-    "TryHackMe/Untitled.md"
+    "Welcome.md"
   ]
 }
