@@ -70,3 +70,4 @@ After much trial and error and hardwork (I'm kidding it wasn't hard at all), we 
 
 ![[Exfiltrated-1744341434736.jpeg]]
 
+Like all script k
