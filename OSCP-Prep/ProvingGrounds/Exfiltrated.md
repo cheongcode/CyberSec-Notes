@@ -78,3 +78,11 @@ python3 -m venv afu-venv
 source afu-venv/bin/activate
 ```
 
+🔹 Install Dependencies
+```
+pip install requests bs4
+```
+
+So we run the exploit:
+
+![[Exfiltrated-1744342000765.jpeg]]
