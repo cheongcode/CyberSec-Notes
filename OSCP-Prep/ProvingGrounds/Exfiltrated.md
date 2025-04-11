@@ -61,4 +61,9 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 23.57 seconds
 ```
 
-From here we can see port 80 and port 22 is open
+From here we can see port 80 and port 22 is open, and just searching for the ip in my browser doesnt give me a anything, so we gonna try the links 1 by 1.
+
+![[Exfiltrated-1744341273064.jpeg]]
+
+
+After much trial and error and hardwork (I'm kidding it wasn't hard at all)
