@@ -150,3 +150,4 @@ www-data@exfiltrated:/var/www/html/subrion/uploads$ chmod +x /tmp/linpeas.sh
 www-data@exfiltrated:/var/www/html/subrion/uploads$ /tmp/linpeas.sh
 ```
 
+![[Exfiltrated-1744344088505.jpeg]]
