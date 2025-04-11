@@ -100,4 +100,9 @@ ngl, this feels abit underwhelming:
 
 ![[Exfiltrated-1744342402815.jpeg]]
 
-but alls good, we have a listener on 4444 on the other end so we gonna 
+but alls good, we have a listener on 4444 on the other end so we gonna upgrade the shell (ngl this guy is pretty genius)
+
+```
+python3 -c 'import pty;pty.spawn("/bin/bash")'; export TERM=xterm-256color
+```
+
