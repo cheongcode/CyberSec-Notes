@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-Prep/ProvingGrounds/Exfiltrated.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exfiltrated"
+              "title": "Welcome"
             }
           }
         ]
@@ -171,13 +171,13 @@
   },
   "active": "ee65e916c115cd36",
   "lastOpenFiles": [
+    "OSCP-Prep/ProvingGrounds/Exfiltrated.md",
     "OSCP-Prep/ProvingGrounds/images/Exfiltrated-1744344314630.jpeg",
     "OSCP-Prep/ProvingGrounds/images/Exfiltrated-1744344088505.jpeg",
     "OSCP-Prep/ProvingGrounds/images/Exfiltrated-1744342402815.jpeg",
     "OSCP-Prep/ProvingGrounds/images/Exfiltrated-1744342348811.jpeg",
     "OSCP-Prep/ProvingGrounds/images/Exfiltrated-1744342000765.jpeg",
     "OSCP-Prep/ProvingGrounds/Twiggy.md",
-    "OSCP-Prep/ProvingGrounds/Exfiltrated.md",
     "().md",
     "OSCP-Prep/ProvingGrounds/images/Exfiltrated-1744341434736.jpeg",
     "OSCP-Prep/ProvingGrounds/images/Exfiltrated-1744341273064.jpeg",
@@ -187,7 +187,6 @@
     "OSCP-Prep/ProvingGrounds/images/Twiggy-1744181043545.jpeg",
     "OSCP-Prep/ProvingGrounds/images/Twiggy-1744181018801.jpeg",
     "OSCP-Prep/ProvingGrounds/images/Twiggy-1744178200043.jpeg",
-    "OSCP-Prep/ProvingGrounds/images/Twiggy-1744178077284.jpeg",
     "OSCP-Prep/ProvingGrounds/images",
     "TryHackMe/Other_Rooms/Brains.md",
     "OSCP-Prep/Untitled.md",
