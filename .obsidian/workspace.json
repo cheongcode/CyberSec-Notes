@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/What_is_Networking.md",
+                "file": "TryHackMe/Pre_Security_Path/OSI_Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What_is_Networking"
+              "title": "OSI_Model"
             }
           }
         ],
@@ -186,6 +186,7 @@
   },
   "active": "062c4fc668a8d0ce",
   "lastOpenFiles": [
+    "TryHackMe/Pre_Security_Path/What_is_Networking.md",
     "TryHackMe/Pre_Security_Path/Intro_to_Defensive_Security.md",
     "Welcome.md",
     "OSCP-Prep/ProvingGrounds/Exfiltrated.md",
@@ -230,7 +231,6 @@
     "HackTheBox/TESTING.md",
     "HackTheBox/Boxes/Attachments",
     "HackTheBox/Boxes",
-    "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
-    "OSCP-Prep/TEST NOTE.md"
+    "TryHackMe/Pre_Security_Path/DNS_in_detail.md"
   ]
 }
