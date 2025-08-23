@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
+                "file": "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Extending_Your_Network"
+              "title": "DNS_in_detail"
             }
           }
         ],
@@ -186,6 +186,7 @@
   },
   "active": "062c4fc668a8d0ce",
   "lastOpenFiles": [
+    "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
     "TryHackMe/Pre_Security_Path/OSI_Model.md",
     "TryHackMe/Pre_Security_Path/What_is_Networking.md",
     "TryHackMe/Pre_Security_Path/Intro_to_Defensive_Security.md",
@@ -229,7 +230,6 @@
     "HackTheBox/Boxes/Adminstrator.md",
     "HackTheBox/Boxes/Attachments/Attachments.md",
     "HackTheBox/Boxes/Boxes.md",
-    "HackTheBox/TESTING.md",
     "HackTheBox/Boxes/Attachments",
     "HackTheBox/Boxes"
   ]
