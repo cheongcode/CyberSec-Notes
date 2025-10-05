@@ -1,0 +1,5 @@
+About this lab
+
+Explore a multi-stage network attack involving an enterprise environment vulnerable to CVE-2020-10189, an exploit for ManageEngine. Progress through system compromise via default credentials, leverage RCE to extract plaintext passwords, pivot using port forwarding, and escalate privileges by exploiting insecure GPO permissions. Your mission concludes with complete domain compromise.
+
+This hands-on lab guides learners through a realistic, multi-stage attack against an enterprise environment, starting with the exploitation of CVE-2020-10189, a known vulnerability in ManageEngine Desktop Central. Participants will identify and exploit a vulnerable service using default credentials and gain remote code execution (RCE) to establish a foothold. The attack continues with the extraction of plaintext credentials from RDCMan, pivoting deeper into the network through port forwarding, and exploiting insecure Group Policy Object (GPO) permissions to escalate privileges. The lab culminates in full domain compromise by achieving administrative control over the final target.
