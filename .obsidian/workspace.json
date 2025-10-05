@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "HTTP_in_Detail"
             }
+          },
+          {
+            "id": "c75e7768bf677ef6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,6 +185,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -184,7 +197,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "062c4fc668a8d0ce",
+  "active": "c75e7768bf677ef6",
   "lastOpenFiles": [
     "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
     "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
