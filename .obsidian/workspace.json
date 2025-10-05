@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-Prep/Challenge Labs/Challenge 0 - Secura.md",
+                "file": "OSCP-Prep/Challenge Labs/Challenge 1 - Medtech.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Challenge 0 - Secura"
+              "title": "Challenge 1 - Medtech"
             }
           }
         ],
@@ -202,7 +202,7 @@
   "active": "c75e7768bf677ef6",
   "lastOpenFiles": [
     "OSCP-Prep/ProvingGrounds/Exfiltrated.md",
-    "OSCP-Prep/Challenge Labs/Challenge 0 - Secura.md",
+    "OSCP-Prep/Challenge Labs/Challenge 1 - Medtech.md",
     "OSCP-Prep/Untitled.md",
     "OSCP-Prep/Challenge Labs",
     "TryHackMe/Pre_Security_Path/DNS_in_detail.md",

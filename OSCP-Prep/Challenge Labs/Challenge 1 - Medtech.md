@@ -8,3 +8,4 @@ This advanced lab challenges participants to navigate a realistic, multi-machine
 - Use pivoting techniques to access internal machines such as FILES02 and CLIENT02, leveraging stolen credentials.
 - Escalate privileges on DEV04 and utilize compromised accounts to attack DC01 for domain admin access.
 - Compromise PROD01 and finalize the domain takeover, securing all proof flags.
+
