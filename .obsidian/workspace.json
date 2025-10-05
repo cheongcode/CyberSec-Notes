@@ -39,12 +39,14 @@
             "id": "c75e7768bf677ef6",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.10"
+                "file": "OSCP-Prep/ProvingGrounds/Exfiltrated.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
+              "icon": "lucide-file",
+              "title": "Exfiltrated"
             }
           }
         ],
@@ -199,6 +201,7 @@
   },
   "active": "c75e7768bf677ef6",
   "lastOpenFiles": [
+    "OSCP-Prep/Untitled.md",
     "TryHackMe/Pre_Security_Path/DNS_in_detail.md",
     "TryHackMe/Pre_Security_Path/Extending_Your_Network.md",
     "TryHackMe/Pre_Security_Path/OSI_Model.md",
@@ -223,7 +226,6 @@
     "OSCP-Prep/ProvingGrounds/images/Twiggy-1744178200043.jpeg",
     "OSCP-Prep/ProvingGrounds/images",
     "TryHackMe/Other_Rooms/Brains.md",
-    "OSCP-Prep/Untitled.md",
     "OSCP-Prep/ProvingGrounds",
     "TryHackMe/Other_Rooms/Images/Images.md",
     "TryHackMe/Other_Rooms/Other_Rooms.md",
