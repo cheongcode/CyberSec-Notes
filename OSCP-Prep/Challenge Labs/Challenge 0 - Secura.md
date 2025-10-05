@@ -1,5 +1,10 @@
 About this lab
 
-Explore a multi-stage network attack involving an enterprise environment vulnerable to CVE-2020-10189, an exploit for ManageEngine. Progress through system compromise via default credentials, leverage RCE to extract plaintext passwords, pivot using port forwarding, and escalate privileges by exploiting insecure GPO permissions. Your mission concludes with complete domain compromise.
+This advanced lab challenges participants to navigate a realistic, multi-machine enterprise network, beginning with the exploitation of a SQL injection vulnerability on a public-facing web server. The vulnerability is used to achieve remote code execution and escalate privileges locally. From there, you'll harvest credentials, perform lateral movement, and pivot into internal systems like FILES02 and CLIENT02. Continue compromising additional hosts such as DEV04 using misconfigurations and token impersonation techniques, ultimately targeting the domain controller (DC01) and PROD01 to achieve full domain compromise.
+## After completing this lab, learners will be able to:
 
-This hands-on lab guides learners through a realistic, multi-stage attack against an enterprise environment, starting with the exploitation of CVE-2020-10189, a known vulnerability in ManageEngine Desktop Central. Participants will identify and exploit a vulnerable service using default credentials and gain remote code execution (RCE) to establish a foothold. The attack continues with the extraction of plaintext credentials from RDCMan, pivoting deeper into the network through port forwarding, and exploiting insecure Group Policy Object (GPO) permissions to escalate privileges. The lab culminates in full domain compromise by achieving administrative control over the final target.
+- Identify and exploit a SQL injection vulnerability on WEB02 to gain initial access and execute commands.
+- Escalate privileges on the WEB02 machine and extract credentials for lateral movement.
+- Use pivoting techniques to access internal machines such as FILES02 and CLIENT02, leveraging stolen credentials.
+- Escalate privileges on DEV04 and utilize compromised accounts to attack DC01 for domain admin access.
+- Compromise PROD01 and finalize the domain takeover, securing all proof flags.
